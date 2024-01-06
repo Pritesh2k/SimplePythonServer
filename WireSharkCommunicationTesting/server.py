@@ -20,7 +20,7 @@ server_socket.bind((host, port))
 # Now wait for the client to connect
 server_socket.listen(5)
 
-print(f"Server listening on {host}:{port}")
+print(f"Server listening on port number:{port}")
 
 while True:
     client_socket, addr = server_socket.accept()
